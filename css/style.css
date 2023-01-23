@@ -39,14 +39,14 @@ header .bar{
 header .logo, header .login-button{
     width: 20%;
     height: 100%;
-    border: 3px dotted black;
+    border: 3px solid black;
     font-size: 30px;
 }
 
 header .links{
     width: 60%;
     height: 100%;
-    border: 3px dotted black;
+    border: 3px solid black;
 }
 
 header .logo{
@@ -81,6 +81,7 @@ header .header-bottom .box{
     width: 50%;
     height: 85%;
     background-color: pink;
+    border: 3px solid black;
 }
 
 header .header-bottom{
@@ -92,4 +93,76 @@ header .header-bottom{
 
 
 
-/* main */
+
+/* inizio main */
+
+/* sezioni */
+main .section{
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section .box{
+    width: 65%;
+    height: 85%;
+    border: 0.5px solid black;
+}
+
+.grey{
+    background-color: lightgray;
+}
+
+main .section.white .blue{
+    height: 100%;
+    width: 60%;
+    background-color: aqua;
+}
+
+main .section.white .pink{
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+}
+
+main .section.grey .pink{
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+}
+
+main .section.grey .blue{
+    height: 100%;
+    width: 60%;
+    background-color: aqua;
+}
+
+main .box > div{
+    border: 0.5px solid black;
+}
+
+
+/* sezione grande */
+main .section-big{
+    height: 1000px;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-big .box{
+    width: 65%;
+    height: 90%;
+    background-color: green;
+}
+
+/* fine sezioni */
+
+/* fine main */
+
+
+
+/* inizio footer */
