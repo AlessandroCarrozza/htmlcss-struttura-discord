@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+/* inizio header */
+
+header{
+    height: 650px;
+}
+
+/* header top */
+
+.header-top{
+    height: 15%;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom{
+    height: 85%;
+    background-color: blue;
+}
+
+header .bar{
+    width: 65%;
+    height: 60px;
+    background-color: goldenrod;
+}
+
+header .logo, header .login-button{
+    width: 20%;
+    height: 100%;
+    border: 3px dotted black;
+    font-size: 30px;
+}
+
+header .links{
+    width: 60%;
+    height: 100%;
+    border: 3px dotted black;
+}
+
+header .logo{
+    align-items: center;
+    padding: 10px;
+}
+
+header .login-button{
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+header .links{
+    justify-content: center;
+    align-items: center;
+}
+
+header .links > div{
+    margin: 0 3px;
+} 
+
+header .links a{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* header bottom */
+
+header .header-bottom .box{
+    width: 50%;
+    height: 85%;
+    background-color: pink;
+}
+
+header .header-bottom{
+    justify-content: center;
+    align-items: center;
+}
+
+/* fine header */
+
+
+
+/* main */
