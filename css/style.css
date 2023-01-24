@@ -14,13 +14,13 @@
 
 header{
     height: 650px;
+    background-color: lightblue;
 }
 
 /* header top */
 
 .header-top{
     height: 15%;
-    background-color: lightblue;
     justify-content: center;
     align-items: center;
 }
@@ -65,8 +65,9 @@ header .links{
     align-items: center;
 }
 
-header .links > div{
-    margin: 0 3px;
+header .links li{
+    padding: 3px 7px;
+    list-style-type: none;
 } 
 
 header .links a{
